@@ -1,0 +1,61 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#equipo {
+    color: #001e50;
+    font-size: 2.5rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+#equipo-imagen {
+    max-width: 180px;
+    margin: 20px 0;
+}
+
+#entrenador {
+    font-size: 1.2rem;
+    color: #444;
+    background: #f8f9fa;
+    padding: 12px 25px;
+    border-left: 5px solid #ee122d;
+    margin-bottom: 40px;
+}
+
+#jugadores {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+#jugadores th {
+    background-color: #001e50;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-weight: 700;
+}
+
+#jugadores td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#jugadores tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+#jugadores tr:hover {
+    background-color: #f1f4ff;
+}
+
+#jugadores th:first-child { border-radius: 8px 0 0 0; }
+#jugadores th:last-child { border-radius: 0 8px 0 0; }
